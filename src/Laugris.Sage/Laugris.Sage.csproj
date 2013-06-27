@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{673F1DF7-BF14-497E-896A-FE0B9B13EE17}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Laugris.Sage</RootNamespace>
+    <AssemblyName>Laugris.Sage</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>LaugrisKeys.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Portable Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Portable Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Portable Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Portable Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;PORTABLE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Portable Release|AnyCPU' ">
+    <OutputPath>bin\Portable Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Portable Release|x86' ">
+    <OutputPath>bin\x86\Portable Release\</OutputPath>
+    <DefineConstants>TRACE;PORTABLE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Portable Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Portable Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;PORTABLE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Portable Release|x64' ">
+    <OutputPath>bin\x64\Portable Release\</OutputPath>
+    <DefineConstants>TRACE;PORTABLE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unit Test|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Unit Test\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unit Test|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\bin\x86\Unit Test\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Unit Test|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Unit Test\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Components\Notifier.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Components\Notifier.designer.cs">
+      <DependentUpon>Notifier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\NotifyWindow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Components\OneInstance.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Components\OneInstance.designer.cs">
+      <DependentUpon>OneInstance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Components\OneInstanceEventArgs.cs" />
+    <Compile Include="Controls\BufferedPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\BufferedPanel.designer.cs">
+      <DependentUpon>BufferedPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\CustomPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\CustomPanel.designer.cs">
+      <DependentUpon>CustomPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FileItem.cs" />
+    <Compile Include="Controls\FolderItem.cs" />
+    <Compile Include="Controls\FolderView.cs" />
+    <Compile Include="Controls\HotKeyControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\HotKeyControl.designer.cs">
+      <DependentUpon>HotKeyControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Core\ActionLoader.cs" />
+    <Compile Include="Core\AsyncShellExecute.cs" />
+    <Compile Include="Core\BufferedCanvas.cs" />
+    <Compile Include="Core\CentralPoint.cs" />
+    <Compile Include="Core\ClassState.cs" />
+    <Compile Include="Core\EmptyEventArgs.cs" />
+    <Compile Include="Core\FileAssociation.cs" />
+    <Compile Include="Core\FileExecutor.cs" />
+    <Compile Include="Core\FileImage.cs" />
+    <Compile Include="Core\FileOperations.cs" />
+    <Compile Include="Core\FileSearch.cs" />
+    <Compile Include="Core\GlobalConfig.cs" />
+    <Compile Include="Core\GlobalSettings.cs" />
+    <Compile Include="Core\GuidCreator.cs" />
+    <Compile Include="Core\Hotkeys.cs" />
+    <Compile Include="Core\InvokeObjectHandler.cs" />
+    <Compile Include="Core\KrentoHint.cs" />
+    <Compile Include="Core\NetworkOperations.cs" />
+    <Compile Include="Core\Pulsar.cs" />
+    <Compile Include="Core\ScreenHint.cs" />
+    <Compile Include="Core\SR.cs" />
+    <Compile Include="Core\SRExtra.cs" />
+    <Compile Include="Core\WebsiteImage.cs" />
+    <Compile Include="Dock\CustomDockManager.cs" />
+    <Compile Include="Dock\CustomDockPainter.cs" />
+    <Compile Include="Dock\CustomDockPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dock\CustomDockPanel.designer.cs">
+      <DependentUpon>CustomDockPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dock\DockEnums.cs" />
+    <Compile Include="Dock\DockInterfaces.cs" />
+    <Compile Include="Dock\DockItem.cs" />
+    <Compile Include="Dock\DockItemEventArgs.cs" />
+    <Compile Include="Dock\DockPainter.cs" />
+    <Compile Include="Dock\DockSettings.cs" />
+    <Compile Include="Dock\FishEyeDockManager.cs" />
+    <Compile Include="Dock\FishEyeDockPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dock\FishEyeDockPanel.designer.cs">
+      <DependentUpon>FishEyeDockPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dock\ZOrderComparer.cs" />
+    <Compile Include="Exceptions\EngineException.cs" />
+    <Compile Include="Exceptions\InvocationException.cs" />
+    <Compile Include="Core\Invocator.cs" />
+    <Compile Include="Exceptions\HookException.cs" />
+    <Compile Include="Core\MouseHook.cs" />
+    <Compile Include="Core\PrimaryScreen.cs" />
+    <Compile Include="Core\RtlAwareMessageBox.cs" />
+    <Compile Include="Core\ServiceProviders.cs" />
+    <Compile Include="Core\SystemClock.cs" />
+    <Compile Include="Core\TextFileReader.cs" />
+    <Compile Include="Exceptions\ThemeException.cs" />
+    <Compile Include="Core\NativeThemeManager.cs" />
+    <Compile Include="Core\VirtualMouse.cs" />
+    <Compile Include="Core\WindowsFont.cs" />
+    <Compile Include="Core\WindowsFontQuality.cs" />
+    <Compile Include="Core\WindowsOperations.cs" />
+    <Compile Include="Gesture\GestureNotifyEventArgs.cs" />
+    <Compile Include="Helpers\ColorUtils.cs" />
+    <Compile Include="Helpers\DesktopHelper.cs" />
+    <Compile Include="Helpers\GenericHelper.cs" />
+    <Compile Include="Helpers\InteropHelper.cs" />
+    <Compile Include="Helpers\KeyboardInfo.cs" />
+    <Compile Include="Helpers\MathUtils.cs" />
+    <Compile Include="Helpers\MouseInfo.cs" />
+    <Compile Include="Helpers\StaticPropertyHelper.cs" />
+    <Compile Include="Interfaces\IHookMessage.cs" />
+    <Compile Include="Interfaces\IKrentoMenu.cs" />
+    <Compile Include="Interfaces\IKrentoMenuItem.cs" />
+    <Compile Include="Internal\BackgroundHandler.cs" />
+    <Compile Include="Internal\BitmapDrawable.cs" />
+    <Compile Include="Internal\ComDataObject.cs" />
+    <Compile Include="Internal\CSIDL.cs" />
+    <Compile Include="Internal\DataObjectExtensions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Internal\DelayHandler.cs" />
+    <Compile Include="Internal\DropSource.cs" />
+    <Compile Include="Internal\GestureAPI.cs" />
+    <Compile Include="Internal\IconHelper.cs" />
+    <Compile Include="Internal\IDragSourceHelper.cs" />
+    <Compile Include="Internal\IEnumIDList.cs" />
+    <Compile Include="Internal\IImageList.cs" />
+    <Compile Include="Core\Language.cs" />
+    <Compile Include="Core\RecycleBin.cs" />
+    <Compile Include="Internal\ISupportOleDropSource.cs" />
+    <Compile Include="Internal\MenuAccessibleObject.cs" />
+    <Compile Include="Internal\MenuItemAccessibleObject.cs" />
+    <Compile Include="Internal\MoonRoad.cs" />
+    <Compile Include="Helpers\FoldersInfo.cs" />
+    <Compile Include="Helpers\TextHelper.cs" />
+    <Compile Include="Internal\DropTarget.cs" />
+    <Compile Include="Internal\IDropTargetHelper.cs" />
+    <Compile Include="Internal\IOleDropSource.cs" />
+    <Compile Include="Internal\IOleDropTarget.cs" />
+    <Compile Include="Internal\NativeMethods.cs" />
+    <Compile Include="Internal\NativeProperties.cs" />
+    <Compile Include="Internal\NativeTypes.cs" />
+    <Compile Include="Internal\ShellClipboardFormats.cs" />
+    <Compile Include="Core\TraceDebug.cs" />
+    <Compile Include="Internal\ThreadWindows.cs" />
+    <Compile Include="Launcher\Catalog.cs" />
+    <Compile Include="Launcher\CatalogItem.cs" />
+    <Compile Include="Launcher\CatalogItemsComparer.cs" />
+    <Compile Include="Launcher\ItemType.cs" />
+    <Compile Include="Magic\MagicDots.cs" />
+    <Compile Include="Magic\MagicShape.cs" />
+    <Compile Include="Magic\MagicSparkle.cs" />
+    <Compile Include="Magic\MagicValues.cs" />
+    <Compile Include="Menus\KrentoMenu.cs" />
+    <Compile Include="Menus\KrentoMenuArgs.cs" />
+    <Compile Include="Menus\KrentoMenuItem.cs" />
+    <Compile Include="Menus\KrentoMenuItems.cs" />
+    <Compile Include="Menus\KrentoMenuTags.cs" />
+    <Compile Include="Menus\KrentoMenuWindow.cs" />
+    <Compile Include="Painters\FrameAnimation.cs" />
+    <Compile Include="Painters\BitmapPainter.cs" />
+    <Compile Include="Painters\CachedBitmap.cs" />
+    <Compile Include="Painters\FastBitmap.cs" />
+    <Compile Include="Painters\LiveBackground.cs" />
+    <Compile Include="Painters\TextPainter.cs" />
+    <Compile Include="Presentation\AccelerateDecelerateInterpolator.cs" />
+    <Compile Include="Presentation\AccelerateInterpolator.cs" />
+    <Compile Include="Presentation\AlphaAnimation.cs" />
+    <Compile Include="Presentation\Animation.cs" />
+    <Compile Include="Presentation\AnimationListener.cs" />
+    <Compile Include="Presentation\AnticipateInterpolator.cs" />
+    <Compile Include="Presentation\AnticipateOvershootInterpolator.cs" />
+    <Compile Include="Presentation\BounceInterpolator.cs" />
+    <Compile Include="Presentation\VisualButton.cs" />
+    <Compile Include="Presentation\CycleInterpolator.cs" />
+    <Compile Include="Presentation\DecelerateInterpolator.cs" />
+    <Compile Include="Presentation\Drawable.cs" />
+    <Compile Include="Presentation\EdgeGlow.cs" />
+    <Compile Include="Presentation\IDrawableCallback.cs" />
+    <Compile Include="Presentation\RotateAnimation.cs" />
+    <Compile Include="Presentation\ScaleAnimation.cs" />
+    <Compile Include="Presentation\TransformationType.cs" />
+    <Compile Include="Presentation\TranslateAnimation.cs" />
+    <Compile Include="Presentation\UIButton.cs" />
+    <Compile Include="Presentation\UIElement.cs" />
+    <Compile Include="Presentation\VisualButtonState.cs" />
+    <Compile Include="Presentation\VisualCollection.cs" />
+    <Compile Include="Presentation\VisualImage.cs" />
+    <Compile Include="Presentation\Interpolator.cs" />
+    <Compile Include="Presentation\LinearInterpolator.cs" />
+    <Compile Include="Presentation\OvershootInterpolator.cs" />
+    <Compile Include="Presentation\RepeatMode.cs" />
+    <Compile Include="Presentation\TextLabel.cs" />
+    <Compile Include="Presentation\Transformation.cs" />
+    <Compile Include="Presentation\Visual.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\IniFileAccessArgs.cs" />
+    <Compile Include="Settings\KeyObjectValueCollection.cs" />
+    <Compile Include="Settings\KeyValueCollection.cs" />
+    <Compile Include="Settings\MemIniFile.cs" />
+    <Compile Include="Skin\KrentoCoreSkin.cs" />
+    <Compile Include="Skin\KrentoMenuSkin.cs" />
+    <Compile Include="Skin\KrentoSkinInfo.cs" />
+    <Compile Include="Skin\SkinOffset.cs" />
+    <Compile Include="VistaAero\AeroForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VistaAero\GlassFrame.cs" />
+    <Compile Include="VistaAero\GlassHelper.cs" />
+    <Compile Include="VistaAero\NativeMethodsAero.cs" />
+    <Compile Include="Windows\FadeEventArgs.cs" />
+    <Compile Include="Windows\FileDropEventArgs.cs" />
+    <Compile Include="Windows\InvokeProcessor.cs" />
+    <Compile Include="Windows\LayeredWindow.cs" />
+    <Compile Include="Windows\LightWindow.cs" />
+    <Compile Include="Windows\MoveDeltaEventArgs.cs" />
+    <Compile Include="Core\Messenger.cs" />
+    <Compile Include="Windows\TimerEventArgs.cs" />
+    <Compile Include="Windows\Window.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LaugrisKeys.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Dock\FishEyeDockPanel.resx">
+      <DependentUpon>FishEyeDockPanel.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LiveBackgrounds\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

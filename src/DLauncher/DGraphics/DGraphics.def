@@ -1,0 +1,6 @@
+LIBRARY	"DGraphics"
+EXPORTS
+	About
+	LoadGDIPlusImage
+	ExtractNativeImage
+	DeleteImage

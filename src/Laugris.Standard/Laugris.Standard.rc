@@ -1,0 +1,246 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+ButtonLauncherFocused.PNG	PNG             "Images\\ButtonLauncherFocused.png"
+ButtonLauncherNormal.PNG	PNG             "Images\\ButtonLauncherNormal.png"
+ButtonLauncherPressed.PNG	PNG             "Images\\ButtonLauncherPressed.png"
+ButtonHomeFocused.PNG		PNG             "Images\\ButtonHomeFocused.png"
+ButtonHomeNormal.PNG		PNG				"Images\\ButtonHomeNormal.png"
+ButtonHomePressed.PNG		PNG             "Images\\ButtonHomePressed.png"
+BUTTONSTONEABOUT.PNG		PNG             "Images\\ButtonStoneAbout.png"
+BUTTONSTONEEDIT.PNG			PNG             "Images\\ButtonStoneEdit.png"
+BUTTONSTONEDELETE.PNG		PNG             "Images\\ButtonStoneDelete.png"
+BUTTONSTONESELECT.PNG		PNG             "Images\\ButtonStoneSelect.png"
+ButtonSearchNormal.PNG      PNG             "Images\\ButtonSearchNormal.png"
+ButtonSearchPressed.PNG     PNG             "Images\\ButtonSearchPressed.png"
+ButtonSearchFocused.PNG     PNG             "Images\\ButtonSearchFocused.png"
+ButtonPowerNormal.png       PNG             "Images\\ButtonPowerNormal.png"
+ButtonPowerPressed.png      PNG             "Images\\ButtonPowerPressed.png"
+ButtonPowerFocused.png      PNG             "Images\\ButtonPowerFocused.png"
+ButtonArrowLeftNormal.PNG   PNG             "Images\\ButtonArrowLeftNormal.png"
+ButtonArrowLeftPressed.PNG  PNG             "Images\\ButtonArrowLeftPressed.png"
+ButtonArrowLeftFocused.PNG	PNG             "Images\\ButtonArrowLeftFocused.png"
+ButtonArrowRightNormal.PNG	PNG             "Images\\ButtonArrowRightNormal.png"
+ButtonArrowRightPressed.PNG PNG             "Images\\ButtonArrowRightPressed.png"
+ButtonArrowRightFocused.PNG PNG             "Images\\ButtonArrowRightFocused.png"
+ButtonSettingsFocused.PNG	PNG             "Images\\ButtonSettingsFocused.png"
+ButtonSettingsNormal.PNG	PNG             "Images\\ButtonSettingsNormal.png"
+ButtonSettingsPressed.PNG   PNG             "Images\\ButtonSettingsPressed.png"
+ANIMATION-POOF.PNG      PNG                     "Images\\animation-poof.png"
+APPACCESS.PNG           PNG                     "Images\\AppAccess.png"
+APPADDREMOVE.PNG        PNG                     "Images\\AppAddRemove.png"
+APPAPPEARANCE.PNG       PNG                     "Images\\AppAppearance.png"
+APPBACKGROUND.PNG       PNG                     "Images\\AppBackground.png"
+APPDATETIME.PNG         PNG                     "Images\\AppDateTime.png"
+APPFONTS.PNG            PNG                     "Images\\AppFonts.png"
+APPKEYBOARD.PNG         PNG                     "Images\\AppKeyboard.png"
+APPMOUSE.PNG            PNG                     "Images\\AppMouse.png"
+APPNETWORK.PNG          PNG                     "Images\\AppNetwork.png"
+APPPRINTERS.PNG         PNG                     "Images\\AppPrinters.png"
+APPTHEMES.PNG           PNG                     "Images\\AppThemes.png"
+APPUSERS.PNG            PNG                     "Images\\AppUsers.png"
+BIGKRENTO.PNG           PNG                     "Images\\BigKrento.png"
+BUTTONBG.PNG            PNG                     "Images\\ButtonBG.png"
+CALENDAR.PNG            PNG                     "Images\\Calendar.png"
+CLOSEKRENTO.PNG         PNG                     "Images\\CloseKrento.png"
+CONTROL.PNG             PNG                     "Images\\control.png"
+DEFAULTBACKGROUND.PNG   PNG                     "Images\\DefaultBackground.png"
+DEFAULTRING.PNG         PNG                     "Images\\DefaultRing.png"
+ERRORSIGN.PNG           PNG                     "Images\\ErrorSign.png"
+EXEC.PNG                PNG                     "Images\\exec.png"
+FOLDER.PNG              PNG                     "Images\\Folder.png"
+FOLDERPOPUP.PNG         PNG                     "Images\\FolderPopup.png"
+HIBERNATE.PNG           PNG                     "Images\\Hibernate.png"
+INDICATOR.PNG           PNG                     "Images\\indicator.png"
+LAUNCHER.PNG            PNG                     "Images\\Launcher.png"
+MYCOMPUTER.PNG          PNG                     "Images\\MyComputer.png"
+MYDOCUMENTS.PNG         PNG                     "Images\\MyDocuments.png"
+MYIP.PNG                PNG                     "Images\\MyIP.png"
+MYMUSIC.PNG             PNG                     "Images\\MyMusic.png"
+MYPICTURES.PNG          PNG                     "Images\\MyPictures.png"
+OVERLAY.PNG             PNG                     "Images\\overlay.png"
+PULSAR.PNG              PNG                     "Images\\Pulsar.png"
+RECYCLEBIN.PNG          PNG                     "Images\\RecycleBin.png"
+RESTART.PNG             PNG                     "Images\\Restart.png"
+SHINE.PNG               PNG                     "Images\\shine.png"
+SHUTDOWN.PNG            PNG                     "Images\\Shutdown.png"
+SMALLKRENTO.PNG         PNG                     "Images\\SmallKrento.png"
+SUSPEND.PNG             PNG                     "Images\\Suspend.png"
+TASKSWITCH.PNG          PNG                     "Images\\TaskSwitch.png"
+TIMER.PNG               PNG                     "Images\\Timer.png"
+TOYS.PNG                PNG                     "Images\\Toys.png"
+UNKNOWNFILE.PNG         PNG                     "Images\\UnknownFile.png"
+URL.PNG                 PNG                     "Images\\url.png"
+WEBBLOGGER.PNG          PNG                     "Images\\WebBlogger.png"
+WEBDELICIOUS.PNG        PNG                     "Images\\WebDelicious.png"
+WEBDIGG.PNG             PNG                     "Images\\WebDigg.png"
+WEBFACEBOOK.PNG         PNG                     "Images\\WebFacebook.png"
+WEBFLICKR.PNG           PNG                     "Images\\WebFlickr.png"
+WEBGMAIL.PNG            PNG                     "Images\\WebGmail.png"
+WEBGOOGLE.PNG           PNG                     "Images\\WebGoogle.png"
+WEBMYSPACE.PNG          PNG                     "Images\\WebMySpace.png"
+WEBREGGIT.PNG           PNG                     "Images\\WebReggit.png"
+WEBTWITTER.PNG          PNG                     "Images\\WebTwitter.png"
+WEBWIKI.PNG             PNG                     "Images\\WebWiki.png"
+WEBWORDPRESS.PNG        PNG                     "Images\\WebWordpress.png"
+WEBYAHOO.PNG            PNG                     "Images\\WebYahoo.png"
+WEBYOUTUBE.PNG          PNG                     "Images\\WebYoutube.png"
+WINDOWBACKGROUND.PNG    PNG                     "Images\\WindowBackground.png"
+WINDOWKRENTOABOUT.PNG   PNG                     "Images\\WindowKrentoAbout.png"
+WINDOWKRENTOSPLASH.PNG  PNG                     "Images\\WindowKrentoSplash.png"
+PREVIOUSRING.PNG        PNG                     "Images\\PreviousRing.png"
+SIGNADD.PNG             PNG                     "Images\\SignAdd.png"
+SIGNCLOSE.PNG           PNG                     "Images\\SignClose.png"
+KRENTO48.PNG            PNG                     "Images\\Krento48.png"
+DELETEWINDOWNORMAL.PNG  PNG                     "Images\\DeleteWindowNormal.png"
+DELETEWINDOWSELECTED.PNG PNG                    "Images\\DeleteWindowSelected.png"
+POPUPABOUT.PNG          PNG                     "Images\\PopupAbout.png"
+POPUPADDRING.PNG        PNG                     "Images\\PopupAddRing.png"
+POPUPADDSTONE.PNG       PNG                     "Images\\PopupAddStone.png"
+POPUPAPPLICATIONS.PNG   PNG                     "Images\\PopupApplications.png"
+POPUPCHANGESKIN.PNG     PNG                     "Images\\PopupChangeSkin.png"
+POPUPDELETERING.PNG     PNG                     "Images\\PopupDeleteRing.png"
+POPUPEDITRING.PNG       PNG                     "Images\\PopupEditRing.png"
+POPUPHELP.PNG           PNG                     "Images\\PopupHelp.png"
+POPUPSETTINGS.PNG       PNG                     "Images\\PopupSettings.png"
+TEXTFIELD.PNG           PNG                     "Images\\TextField.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_MAINICON            ICON                    "Images\\Krento.ico"
+IDI_RING                ICON                    "Images\\DefaultRing.ico"
+IDI_MENUSKIN            ICON                    "Images\\MenuSkin.ico"
+IDI_TOYICON             ICON                    "Images\\DefaultToys.ico"
+IDI_KRENTOSKIN          ICON                    "Images\\KrentoSkin.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_MENUCLICK           WAVE                    "Sounds\\On select popup menu.wav"
+IDR_CLICK               WAVE                    "Sounds\\On click.wav"
+IDR_MENUHIDE            WAVE                    "Sounds\\On hide popup menu.wav"
+IDR_MENUSELECT          WAVE                    "Sounds\\On popup menu.wav"
+IDR_WELCOME             WAVE                    "Sounds\\Welcome.wav"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,1,0,0
+ PRODUCTVERSION 3,1,0,0
+ FILEFLAGSMASK 0x17L
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000904b0"
+        BEGIN
+            VALUE "FileDescription", "Laugris standard theme resources"
+            VALUE "FileVersion", "3, 1, 0, 0"
+            VALUE "InternalName", "Laugris.Standard"
+            VALUE "LegalCopyright", "Copyright (C) 2011-2012, Serhiy Perevoznyk"
+            VALUE "OriginalFilename", "Laugris.Standard"
+            VALUE "ProductName", "Krento"
+            VALUE "ProductVersion", "3, 1, 0, 0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x9, 1200
+    END
+END
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
