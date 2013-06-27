@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<downloads>  
+
+ <skins>  
+   <skin>
+     <name>Soft Curve Black</name>
+     <author>Serhiy Perevoznyk</author>
+     <version>1.0.0.0</version>
+     <icon>http://users.telenet.be/serhiy.perevoznyk/scurve.png</icon>
+     <file>http://users.telenete.be/serhiy.perevoznyk/scurve.zip</file>
+   </skin>
+ </skins>
+ 
+ <toys>
+ </toys>
+
+ <menus>
+ </menus>
+
+ <stones>
+ </stones>
+
+</downloads>  
