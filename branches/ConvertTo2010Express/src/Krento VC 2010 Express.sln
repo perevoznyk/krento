@@ -39,8 +39,10 @@ Global
 		{C18F432D-39EF-46C3-8496-6976A7630491}.Release|Win32.Build.0 = Release|Win32
 		{C18F432D-39EF-46C3-8496-6976A7630491}.Release|x86.ActiveCfg = Release|Win32
 		{C18F432D-39EF-46C3-8496-6976A7630491}.Release|x86.Build.0 = Release|Win32
-		{C18F432D-39EF-46C3-8496-6976A7630491}.Unit Test|Win32.ActiveCfg = Portable Release|x64
-		{C18F432D-39EF-46C3-8496-6976A7630491}.Unit Test|x86.ActiveCfg = Portable Release|x64
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Unit Test|Win32.ActiveCfg = Portable Release|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Unit Test|Win32.Build.0 = Portable Release|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Unit Test|x86.ActiveCfg = Portable Release|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Unit Test|x86.Build.0 = Portable Release|Win32
 		{27084130-9866-4B57-AA86-725AEF695967}.Debug|Win32.ActiveCfg = Debug|Win32
 		{27084130-9866-4B57-AA86-725AEF695967}.Debug|Win32.Build.0 = Debug|Win32
 		{27084130-9866-4B57-AA86-725AEF695967}.Debug|x86.ActiveCfg = Debug|Win32
@@ -59,7 +61,8 @@ Global
 		{27084130-9866-4B57-AA86-725AEF695967}.Release|x86.Build.0 = Release|Win32
 		{27084130-9866-4B57-AA86-725AEF695967}.Unit Test|Win32.ActiveCfg = Unit Test|Win32
 		{27084130-9866-4B57-AA86-725AEF695967}.Unit Test|Win32.Build.0 = Unit Test|Win32
-		{27084130-9866-4B57-AA86-725AEF695967}.Unit Test|x86.ActiveCfg = Unit Test|x64
+		{27084130-9866-4B57-AA86-725AEF695967}.Unit Test|x86.ActiveCfg = Unit Test|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Unit Test|x86.Build.0 = Unit Test|Win32
 		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Debug|Win32.ActiveCfg = Debug|Win32
 		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Debug|Win32.Build.0 = Debug|Win32
 		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Debug|x86.ActiveCfg = Debug|Win32
@@ -78,30 +81,36 @@ Global
 		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Release|x86.Build.0 = Release|Win32
 		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Unit Test|Win32.ActiveCfg = Unit Test|Win32
 		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Unit Test|Win32.Build.0 = Unit Test|Win32
-		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Unit Test|x86.ActiveCfg = Unit Test|x64
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Unit Test|x86.ActiveCfg = Unit Test|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Unit Test|x86.Build.0 = Unit Test|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Debug|Win32.ActiveCfg = Debug|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Debug|Win32.Build.0 = Debug|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Debug|x86.Build.0 = Debug|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Debug|Win32.ActiveCfg = Debug|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Debug|Win32.Build.0 = Debug|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Debug|x86.ActiveCfg = Debug|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Debug|x86.Build.0 = Debug|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Release|Win32.ActiveCfg = Release|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Release|Win32.Build.0 = Release|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Release|x86.ActiveCfg = Release|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Release|x86.Build.0 = Release|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Release|Win32.ActiveCfg = Release|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Release|Win32.Build.0 = Release|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Release|x86.ActiveCfg = Release|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Release|x86.Build.0 = Release|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Unit Test|Win32.ActiveCfg = Release|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Unit Test|Win32.Build.0 = Release|Win32
 		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Unit Test|x86.ActiveCfg = Release|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Unit Test|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		BuildVersion_UpdateFileVersion = False
-		BuildVersion_UpdateAssemblyVersion = False
 		BuildVersion_BuildVersioningStyle = None.None.Increment.DayStamp
+		BuildVersion_UpdateAssemblyVersion = False
+		BuildVersion_UpdateFileVersion = False
 	EndGlobalSection
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
