@@ -1,0 +1,110 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KrentoCommander", "KrentoCommander\KrentoCommander.vcxproj", "{C18F432D-39EF-46C3-8496-6976A7630491}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MoonRoad", "MoonRoad\MoonRoad.vcxproj", "{27084130-9866-4B57-AA86-725AEF695967}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Laugris.Standard", "Laugris.Standard\Laugris.Standard.vcxproj", "{80B2530F-BE3C-42EC-AEE7-0A268A448408}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mongoose", "mongoose\mongoose.vcxproj", "{9B657D77-F616-417B-B51D-9716C0E38C0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x86 = Debug|x86
+		Portable Debug|Win32 = Portable Debug|Win32
+		Portable Debug|x86 = Portable Debug|x86
+		Portable Release|Win32 = Portable Release|Win32
+		Portable Release|x86 = Portable Release|x86
+		Release|Win32 = Release|Win32
+		Release|x86 = Release|x86
+		Unit Test|Win32 = Unit Test|Win32
+		Unit Test|x86 = Unit Test|x86
+		Description = Krento Application Manager
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Debug|Win32.Build.0 = Debug|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Debug|x86.ActiveCfg = Debug|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Debug|x86.Build.0 = Debug|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Portable Debug|Win32.ActiveCfg = Portable Debug|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Portable Debug|Win32.Build.0 = Portable Debug|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Portable Debug|x86.ActiveCfg = Portable Debug|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Portable Debug|x86.Build.0 = Portable Debug|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Portable Release|Win32.ActiveCfg = Portable Release|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Portable Release|Win32.Build.0 = Portable Release|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Portable Release|x86.ActiveCfg = Portable Release|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Portable Release|x86.Build.0 = Portable Release|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Release|Win32.ActiveCfg = Release|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Release|Win32.Build.0 = Release|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Release|x86.ActiveCfg = Release|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Release|x86.Build.0 = Release|Win32
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Unit Test|Win32.ActiveCfg = Portable Release|x64
+		{C18F432D-39EF-46C3-8496-6976A7630491}.Unit Test|x86.ActiveCfg = Portable Release|x64
+		{27084130-9866-4B57-AA86-725AEF695967}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Debug|Win32.Build.0 = Debug|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Debug|x86.ActiveCfg = Debug|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Debug|x86.Build.0 = Debug|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Portable Debug|Win32.ActiveCfg = Portable Debug|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Portable Debug|Win32.Build.0 = Portable Debug|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Portable Debug|x86.ActiveCfg = Portable Debug|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Portable Debug|x86.Build.0 = Portable Debug|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Portable Release|Win32.ActiveCfg = Portable Release|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Portable Release|Win32.Build.0 = Portable Release|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Portable Release|x86.ActiveCfg = Portable Release|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Portable Release|x86.Build.0 = Portable Release|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Release|Win32.ActiveCfg = Release|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Release|Win32.Build.0 = Release|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Release|x86.ActiveCfg = Release|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Release|x86.Build.0 = Release|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Unit Test|Win32.ActiveCfg = Unit Test|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Unit Test|Win32.Build.0 = Unit Test|Win32
+		{27084130-9866-4B57-AA86-725AEF695967}.Unit Test|x86.ActiveCfg = Unit Test|x64
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Debug|Win32.Build.0 = Debug|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Debug|x86.ActiveCfg = Debug|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Debug|x86.Build.0 = Debug|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Portable Debug|Win32.ActiveCfg = Portable Debug|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Portable Debug|Win32.Build.0 = Portable Debug|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Portable Debug|x86.ActiveCfg = Portable Debug|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Portable Debug|x86.Build.0 = Portable Debug|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Portable Release|Win32.ActiveCfg = Portable Release|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Portable Release|Win32.Build.0 = Portable Release|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Portable Release|x86.ActiveCfg = Portable Release|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Portable Release|x86.Build.0 = Portable Release|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Release|Win32.ActiveCfg = Release|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Release|Win32.Build.0 = Release|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Release|x86.ActiveCfg = Release|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Release|x86.Build.0 = Release|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Unit Test|Win32.ActiveCfg = Unit Test|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Unit Test|Win32.Build.0 = Unit Test|Win32
+		{80B2530F-BE3C-42EC-AEE7-0A268A448408}.Unit Test|x86.ActiveCfg = Unit Test|x64
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Debug|Win32.Build.0 = Debug|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Debug|x86.ActiveCfg = Debug|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Debug|Win32.ActiveCfg = Debug|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Debug|Win32.Build.0 = Debug|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Debug|x86.ActiveCfg = Debug|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Release|Win32.ActiveCfg = Release|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Release|Win32.Build.0 = Release|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Portable Release|x86.ActiveCfg = Release|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Release|Win32.ActiveCfg = Release|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Release|Win32.Build.0 = Release|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Release|x86.ActiveCfg = Release|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Unit Test|Win32.ActiveCfg = Release|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Unit Test|Win32.Build.0 = Release|Win32
+		{9B657D77-F616-417B-B51D-9716C0E38C0B}.Unit Test|x86.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		BuildVersion_UpdateFileVersion = False
+		BuildVersion_UpdateAssemblyVersion = False
+		BuildVersion_BuildVersioningStyle = None.None.Increment.DayStamp
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
