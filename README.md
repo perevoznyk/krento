@@ -1,0 +1,2 @@
+# krento
+If you want to bring some order on your Windows desktop, easy find and launch your favorite applications or have an instant access to your favorite websites then Krento is what are you looking for. Krento is a modern desktop organizer which combines the functionality of the Application Launcher, Application Dock and Widget Engine in one small and powerful application. Easy to use, with fascinating graphics effects, it creates a user experience so strong that once getting used to it, you won't be able to use your computer without Krento.
