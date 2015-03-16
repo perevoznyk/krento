@@ -1,0 +1,1 @@
+Krento is a productivity-boosting launcher and Start-menu replacement
